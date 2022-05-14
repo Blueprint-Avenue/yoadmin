@@ -5,7 +5,6 @@ import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import FullscreenExitOutlinedIcon from "@mui/icons-material/FullscreenExitOutlined";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
-import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import ListAltOutlinedIcon from "@mui/icons-material/ListAltOutlined";
 
 const Navbar = () => {
@@ -41,7 +40,7 @@ const Navbar = () => {
 					<div className="item">
 						<img
 							src="https://images.pexels.com/photos/1808398/pexels-photo-1808398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-							alt="avatar image"
+							alt=""
 							className="avatar"
 						/>
 					</div>
