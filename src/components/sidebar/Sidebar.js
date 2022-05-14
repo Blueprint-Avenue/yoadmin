@@ -10,13 +10,16 @@ import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import SettingsIcon from "@mui/icons-material/Settings";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import LogoutIcon from "@mui/icons-material/Logout";
+import {Link} from "react-router-dom";
 
 const Sidebar = () => {
 	return (
 		<div className="sidebar">
 			{/* Logo Header */}
 			<div className="top">
-				<span className="logo">YoAdmin</span>
+				<Link to="/" style={{textDecoration: "none"}}>
+					<span className="logo">YoAdmin</span>
+				</Link>
 			</div>
 			<hr />
 			{/* List Section */}
@@ -28,14 +31,18 @@ const Sidebar = () => {
 						<span>Dashboard</span>
 					</li>
 					<p className="title">LISTS</p>
-					<li>
-						<BadgeIcon className="icon" />
-						<span>Users</span>
-					</li>
-					<li>
-						<InventoryIcon className="icon" />
-						<span>Products</span>
-					</li>
+					<Link to="/users" style={{textDecoration: "none"}}>
+						<li>
+							<BadgeIcon className="icon" />
+							<span>Users</span>
+						</li>
+					</Link>
+					<Link to="/products" style={{textDecoration: "none"}}>
+						<li>
+							<InventoryIcon className="icon" />
+							<span>Products</span>
+						</li>
+					</Link>
 					<li>
 						<LocalShippingIcon className="icon" />
 						<span>Delivery</span>

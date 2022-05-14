@@ -1,8 +1,31 @@
 .data__Table{
     height: 600px;
     padding: 20px;
-    -webkit-box-shadow: 5px 5px 15px 5px #1E5128;
-    box-shadow: 5px 5px 15px 5px #1E5128;
+        .data__Title{
+            width: 100%;
+            font-size: 24px;
+            color: #D8E9A8;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .link__Button{
+                text-decoration: none;
+                color: #1E5128;
+                font-size: 16px;
+                font-weight: 400;
+                border: 1px solid #1E5128;
+                border-radius: 5px;
+                padding: 4px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #D8E9A8;
+                }
+            }
+        }
+
 
 
     .cell__WithImg{
