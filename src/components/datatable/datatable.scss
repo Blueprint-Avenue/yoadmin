@@ -1,6 +1,9 @@
 .data__Table{
     height: 600px;
     padding: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #1E5128;
+    box-shadow: 5px 5px 15px 5px #1E5128;
+
 
     .cell__WithImg{
         display: flex;
