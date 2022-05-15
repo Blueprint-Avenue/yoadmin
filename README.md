@@ -4,12 +4,18 @@ A complex react administration app, that features users, products, revenue, and 
 
 Final App deploy: https://slacken-1.web.app
 
-  <img src="img/Light.png" width="1000" height="800" />
-  <img src="img/Dark.png" width="1000" height="800" />
-  <img src="img/ProductTable.png" width="1000" height="800" />
-    <img src="img/SideBar.png" width="700" height="2000"/>
-      <img src="/img/User.png" width="1000" height="800" />
-      <img src="/img/AddUser.png" width="1000" height="800" />
+<h1>Light Mode</h1>
+  <img src="img/Light.png" width="800" height="800" />
+  <h1>Dark Mode</h1>
+  <img src="img/Dark.png" width="800" height="800" />
+  <h1>Product Table</h1>
+  <img src="img/ProductTable.png" width="800" height="800" />
+  <h1>Sidebar</h1>
+    <img src="img/SideBar.png" width="800" height="2000"/>
+    <h1>User Page</h1>
+      <img src="/img/User.png" width="800" height="800" />
+      <h1>Add User</h1>
+      <img src="/img/AddUser.png" width="800" height="800" />
 
 ## Features
 
