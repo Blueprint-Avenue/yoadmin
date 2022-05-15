@@ -6,7 +6,7 @@ import TableList from "../../components/table/TableList";
 import Widget from "../../components/widgets/Widget";
 import "./home.scss";
 
-const Home = () => {
+const Home = ({setDark}) => {
 	return (
 		<div className="home">
 			{/* SideBar Component */}

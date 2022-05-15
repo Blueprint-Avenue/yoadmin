@@ -1,0 +1,49 @@
+.app.dark{
+    background-color: #191A19;
+    color: rgb(156,156,156);
+
+    .chart__Grid{
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+    .table{
+        background-color: #191A19;
+
+        .table__Cell{
+            color:rgb(156, 156, 156);
+        }
+    }
+    .sidebar{
+        background-color: #191A19;
+        color: rgb(156, 156, 156);
+
+        .top{
+            .logo{
+                color: #D8E9A8;
+            }
+        }
+    }
+    .data__Table{
+
+        .data__Grid{
+            color:rgb(156, 156, 156);
+            border: none;
+
+            .view__Button{
+                color: rgb(156, 156, 156);
+                border: 1px dotted #D8E9A8;
+            }
+
+            .delete__Button{
+                color: rgb(156, 156, 156);
+                border: 1px dotted #4E9F3D;
+            }
+            .cell__WithStatus{
+                color: rgb(156, 156, 156);
+            }
+        }
+
+    }
+    input{
+        background-color: transparent;
+    }
+}
